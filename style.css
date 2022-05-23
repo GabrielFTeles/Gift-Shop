@@ -253,6 +253,18 @@ footer {
   height: 15rem;
 }
 
+.footer-content form #submit {
+  margin-top: 3rem;
+
+  background-color: var(--button-color);
+
+  height: 5rem;
+
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 
 
 
