@@ -58,7 +58,14 @@ h3 {
   margin-inline: auto;
 }
 
+.header-content button:hover,
+.footer-content form #submit:hover {
+  filter: brightness(0.9);
+}
 
+
+
+/*=== HEADER ===========================*/
 
 .header-content {
   padding-block: 5.5rem 8.8rem;
@@ -106,10 +113,6 @@ h3 {
   transition: 0.2s;
 }
 
-.header-content button:hover {
-  filter: brightness(0.9);
-}
-
 .image {
   display: grid;
   place-items: center;
@@ -121,7 +124,7 @@ h3 {
 
 
 
-
+/*=== CARDS SECTION ===========================*/
 
 .cards-section {
   background-color: var(--cards-sec-bg-color);
@@ -172,6 +175,8 @@ h3 {
   line-height: 3rem;
 }
 
+/*=== CARDS COLOR ===========================*/
+
 .first-color {
   background-color: var(--card-1-color);
 }
@@ -199,7 +204,7 @@ h3 {
 
 
 
-
+/*=== FOOTER ===========================*/
 
 footer {
   padding-inline: 2rem;
@@ -263,11 +268,13 @@ footer {
   color: white;
   font-weight: 700;
   font-size: 2rem;
+
+  cursor: pointer;
 }
 
 
 
-
+/*=== RESPONSIVE ===========================*/
 
 @media (min-width: 1440px) {
 
@@ -289,9 +296,6 @@ footer {
     width: 50rem;
     height: 36rem;
   }
-
-
-
 
   .cards {
     justify-content: space-between;
